@@ -1,0 +1,44 @@
+python3 main.py --double --dueling --frame-downscale 2 --env TennisNoFrameskip-v4 --seed 0 --load-model CDQN_1_1 CDQN_1_2 CDQN_1_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env TennisNoFrameskip-v4 --seed 0 --load-model CDQN_2_1 CDQN_2_2 CDQN_2_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env TennisNoFrameskip-v4 --seed 0 --load-model CDQN_3_1 CDQN_3_2 CDQN_3_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env TennisNoFrameskip-v4 --seed 0 --load-model DQN_1_1 DQN_1_2 DQN_1_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env TennisNoFrameskip-v4 --seed 0 --load-model DQN_2_1 DQN_2_2 DQN_2_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env TennisNoFrameskip-v4 --seed 0 --load-model DQN_3_1 DQN_3_2 DQN_3_3 --evaluate
+
+python3 main.py --double --dueling --frame-downscale 2 --env TennisNoFrameskip-v4 --seed 1 --load-model CDQN_1_3 CDQN_2_1 CDQN_3_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env TennisNoFrameskip-v4 --seed 1 --load-model DQN_1_2 DQN_2_2 DQN_3_1 --evaluate
+
+
+python3 main.py --double --dueling --frame-downscale 2 --env VentureNoFrameskip-v4 --seed 0 --load-model CDQN_1_1 CDQN_1_2 CDQN_1_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env VentureNoFrameskip-v4 --seed 0 --load-model CDQN_2_1 CDQN_2_2 CDQN_2_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env VentureNoFrameskip-v4 --seed 0 --load-model CDQN_3_1 CDQN_3_2 CDQN_3_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env VentureNoFrameskip-v4 --seed 0 --load-model DQN_1_1 DQN_1_2 DQN_1_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env VentureNoFrameskip-v4 --seed 0 --load-model DQN_2_1 DQN_2_2 DQN_2_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env VentureNoFrameskip-v4 --seed 0 --load-model DQN_3_1 DQN_3_2 DQN_3_3 --evaluate
+
+python3 main.py --double --dueling --frame-downscale 2 --env VentureNoFrameskip-v4 --seed 1 --load-model CDQN_1_2 CDQN_2_3 CDQN_3_1 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env VentureNoFrameskip-v4 --seed 1 --load-model DQN_1_1 DQN_2_2 DQN_3_1 --evaluate
+
+
+python3 main.py --double --dueling --frame-downscale 2 --env PrivateEyeNoFrameskip-v4 --seed 0 --load-model CDQN_1_1 CDQN_1_2 CDQN_1_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env PrivateEyeNoFrameskip-v4 --seed 0 --load-model CDQN_2_1 CDQN_2_2 CDQN_2_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env PrivateEyeNoFrameskip-v4 --seed 0 --load-model CDQN_3_1 CDQN_3_2 CDQN_3_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env PrivateEyeNoFrameskip-v4 --seed 0 --load-model DQN_1_1 DQN_1_2 DQN_1_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env PrivateEyeNoFrameskip-v4 --seed 0 --load-model DQN_2_1 DQN_2_2 DQN_2_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env PrivateEyeNoFrameskip-v4 --seed 0 --load-model DQN_3_1 DQN_3_2 DQN_3_3 --evaluate
+
+python3 main.py --double --dueling --frame-downscale 2 --env PrivateEyeNoFrameskip-v4 --seed 1 --load-model CDQN_1_3 CDQN_2_1 CDQN_3_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env PrivateEyeNoFrameskip-v4 --seed 1 --load-model DQN_1_1 DQN_2_1 DQN_3_1 --evaluate
+
+
+python3 main.py --double --dueling --frame-downscale 2 --env SkiingNoFrameskip-v4 --seed 0 --load-model CDQN_1_1 CDQN_1_2 CDQN_1_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env SkiingNoFrameskip-v4 --seed 0 --load-model CDQN_2_1 CDQN_2_2 CDQN_2_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env SkiingNoFrameskip-v4 --seed 0 --load-model CDQN_3_1 CDQN_3_2 CDQN_3_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env SkiingNoFrameskip-v4 --seed 0 --load-model DQN_1_1 DQN_1_2 DQN_1_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env SkiingNoFrameskip-v4 --seed 0 --load-model DQN_2_1 DQN_2_2 DQN_2_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env SkiingNoFrameskip-v4 --seed 0 --load-model DQN_3_1 DQN_3_2 DQN_3_3 --evaluate
+
+python3 main.py --double --dueling --frame-downscale 2 --env SkiingNoFrameskip-v4 --seed 1 --load-model CDQN_1_2 CDQN_2_1 CDQN_3_3 --evaluate
+python3 main.py --double --dueling --frame-downscale 2 --env SkiingNoFrameskip-v4 --seed 1 --load-model DQN_1_2 DQN_2_2 DQN_3_2 --evaluate
+
+

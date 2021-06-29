@@ -1,0 +1,8 @@
+python3 main.py --optim adam --alg DQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env PongNoFrameskip-v4 --seed 1
+python3 main.py --optim adam --alg DQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env SpaceInvadersNoFrameskip-v4 --seed 1
+
+python3 main.py --optim adam --alg Residual --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env PongNoFrameskip-v4 --seed 1 --adam-eps 5e-6
+python3 main.py --optim adam --alg Residual --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env SpaceInvadersNoFrameskip-v4 --seed 1 --adam-eps 5e-6
+
+python3 main.py --optim adam --alg CDQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env PongNoFrameskip-v4 --seed 1 --adam-eps 5e-5
+python3 main.py --optim adam --alg CDQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env SpaceInvadersNoFrameskip-v4 --seed 1 --adam-eps 5e-5
