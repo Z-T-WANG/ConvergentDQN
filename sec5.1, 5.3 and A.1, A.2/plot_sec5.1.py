@@ -8,7 +8,7 @@ plt.rcParams["axes.formatter.use_mathtext"]=True
 
 
 
-algs = {"C-DQN": "CDQN", "DQN": "DQN", "NFQ": "Residual"}
+algs = {"C-DQN": "CDQN", "DQN": "DQN", "RG": "Residual"}
 file_suffix_meaning = {"_.txt": "reward", "mse_.txt": "loss"}
 
 
