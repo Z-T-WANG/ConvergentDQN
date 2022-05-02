@@ -1,0 +1,12 @@
+python3 main.py --optim adam --alg DQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env HeroNoFrameskip-v4 --max-steps 25000000 --seed 1 --update-target 800 --comment target800
+python3 main.py --optim adam --alg DQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env SpaceInvadersNoFrameskip-v4 --max-steps 25000000 --seed 1 --update-target 800 --comment target800
+
+
+python3 main.py --optim adam --alg DQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env HeroNoFrameskip-v4 --max-steps 25000000 --seed 1 --update-target 80 --comment target80
+python3 main.py --optim adam --alg DQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env SpaceInvadersNoFrameskip-v4 --max-steps 25000000 --seed 1 --update-target 80 --comment target80
+
+python3 main.py --optim adam --alg CDQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env HeroNoFrameskip-v4 --max-steps 25000000 --seed 1 --adam-eps 5e-5 --update-target 800 --comment target800
+python3 main.py --optim adam --alg CDQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env SpaceInvadersNoFrameskip-v4 --max-steps 25000000 --seed 1 --adam-eps 5e-5 --update-target 800 --comment target800
+
+python3 main.py --optim adam --alg CDQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env HeroNoFrameskip-v4 --max-steps 25000000 --seed 1 --adam-eps 5e-5 --update-target 80 --comment target80
+python3 main.py --optim adam --alg CDQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env SpaceInvadersNoFrameskip-v4 --max-steps 25000000 --seed 1 --adam-eps 5e-5 --update-target 80 --comment target80
