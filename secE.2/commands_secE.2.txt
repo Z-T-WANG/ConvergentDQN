@@ -1,3 +1,0 @@
-python3 main.py --optim adam --alg DQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env SpaceInvadersNoFrameskip-v4 --seed 1 --prio-eps 1e-8 --comment pEps-8 --IS-weight-only-smaller
-python3 main.py --optim adam --alg DQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env SpaceInvadersNoFrameskip-v4 --seed 1 --prio-eps 1e-6 --comment pEps-6 --IS-weight-only-smaller
-python3 main.py --optim adam --alg DQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env SpaceInvadersNoFrameskip-v4 --seed 1 --prio-eps 1e-4 --comment pEps-4 --IS-weight-only-smaller
