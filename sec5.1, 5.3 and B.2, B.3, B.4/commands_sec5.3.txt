@@ -1,0 +1,31 @@
+python3 main.py --optim adam --transform-Q --alg CDQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env PrivateEyeNoFrameskip-v4 --seed 1 --comment 1 --save-best
+python3 main.py --optim adam --transform-Q --alg CDQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env PrivateEyeNoFrameskip-v4 --seed 2 --comment 2 --save-best
+python3 main.py --optim adam --transform-Q --alg CDQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env PrivateEyeNoFrameskip-v4 --seed 3 --comment 3 --save-best
+
+python3 main.py --optim adam --transform-Q --alg DQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env PrivateEyeNoFrameskip-v4 --seed 1 --comment 1 --save-best
+python3 main.py --optim adam --transform-Q --alg DQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env PrivateEyeNoFrameskip-v4 --seed 2 --comment 2 --save-best
+python3 main.py --optim adam --transform-Q --alg DQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env PrivateEyeNoFrameskip-v4 --seed 3 --comment 3 --save-best
+
+python3 main.py --optim adam --transform-Q --alg CDQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env SkiingNoFrameskip-v4 --seed 1 --comment 1 --save-best
+python3 main.py --optim adam --transform-Q --alg CDQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env SkiingNoFrameskip-v4 --seed 2 --comment 2 --save-best
+python3 main.py --optim adam --transform-Q --alg CDQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env SkiingNoFrameskip-v4 --seed 3 --comment 3 --save-best
+
+python3 main.py --optim adam --transform-Q --alg DQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env SkiingNoFrameskip-v4 --seed 1 --comment 1 --save-best
+python3 main.py --optim adam --transform-Q --alg DQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env SkiingNoFrameskip-v4 --seed 2 --comment 2 --save-best
+python3 main.py --optim adam --transform-Q --alg DQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env SkiingNoFrameskip-v4 --seed 3 --comment 3 --save-best
+
+python3 main.py --optim adam --transform-Q --alg CDQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env VentureNoFrameskip-v4 --seed 1 --comment 1 --save-best
+python3 main.py --optim adam --transform-Q --alg CDQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env VentureNoFrameskip-v4 --seed 2 --comment 2 --save-best
+python3 main.py --optim adam --transform-Q --alg CDQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env VentureNoFrameskip-v4 --seed 3 --comment 3 --save-best
+
+python3 main.py --optim adam --transform-Q --alg DQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env VentureNoFrameskip-v4 --seed 1 --comment 1 --save-best
+python3 main.py --optim adam --transform-Q --alg DQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env VentureNoFrameskip-v4 --seed 2 --comment 2 --save-best
+python3 main.py --optim adam --transform-Q --alg DQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env VentureNoFrameskip-v4 --seed 3 --comment 3 --save-best
+
+python3 main.py --optim adam --transform-Q --alg CDQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env TennisNoFrameskip-v4 --seed 1 --comment 1 --save-best
+python3 main.py --optim adam --transform-Q --alg CDQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env TennisNoFrameskip-v4 --seed 2 --comment 2 --save-best
+python3 main.py --optim adam --transform-Q --alg CDQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env TennisNoFrameskip-v4 --seed 3 --comment 3 --save-best
+
+python3 main.py --optim adam --transform-Q --alg DQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env TennisNoFrameskip-v4 --seed 1 --comment 1 --save-best
+python3 main.py --optim adam --transform-Q --alg DQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env TennisNoFrameskip-v4 --seed 2 --comment 2 --save-best
+python3 main.py --optim adam --transform-Q --alg DQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 4e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env TennisNoFrameskip-v4 --seed 3 --comment 3 --save-best

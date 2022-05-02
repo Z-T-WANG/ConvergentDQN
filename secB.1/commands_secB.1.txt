@@ -1,0 +1,18 @@
+notice that the program requries the installation and setting of intel math kernel library
+
+
+
+python3 main_parallel.py --write_training_data --comment 1 --seed 1 
+python3 main_parallel.py --write_training_data --comment 2 --seed 2
+python3 main_parallel.py --write_training_data --comment 3 --seed 3
+python3 main_parallel.py --write_training_data --comment 4 --seed 4 
+python3 main_parallel.py --write_training_data --comment 5 --seed 5 
+python3 main_parallel.py --write_training_data --comment 1CDQN --seed 1 --target_network_update_interval 150
+python3 main_parallel.py --write_training_data --comment 2CDQN --seed 2 --target_network_update_interval 150
+python3 main_parallel.py --write_training_data --comment 3CDQN --seed 3 --target_network_update_interval 150
+python3 main_parallel.py --write_training_data --comment 4CDQN --seed 4 --target_network_update_interval 150
+python3 main_parallel.py --write_training_data --comment 5CDQN --seed 5 --target_network_update_interval 150
+
+python3 plot_learning.py 
+
+

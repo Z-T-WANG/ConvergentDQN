@@ -1,0 +1,5 @@
+python3 main.py --optim adam --transform-Q --alg CDQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 2e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env SkiingNoFrameskip-v4 --seed 1 --comment 1 
+python3 main.py --optim adam --transform-Q --alg CDQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 2e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env SkiingNoFrameskip-v4 --seed 2 --comment 2 
+python3 main.py --optim adam --transform-Q --alg CDQN --prioritized-replay --double --auto-init --dueling --adam-eps 1e-6 --alpha 0.9 --lr 2e-5 --grad-clip 5 --learning-start 50000 --frame-downscale 2 --env SkiingNoFrameskip-v4 --seed 3 --comment 3 
+
+

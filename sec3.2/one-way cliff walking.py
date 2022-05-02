@@ -301,7 +301,7 @@ ax1.set_xticklabels([])
 #plt.xlim(left=1, right=1e3)#
 #plt.ylim(bottom=-2)
 ax1.set_ylabel("total reward")
-ax1.legend(loc="lower right")
+ax1.legend(loc="center left",fontsize=8, bbox_to_anchor=(0.62,0.56))
 
 #ax = plt.gca()
 #inset_axes(ax, width="100%", height="100%", bbox_to_anchor=(0.722,0.689,0.31,0.35), bbox_transform=ax.transAxes) #, loc=

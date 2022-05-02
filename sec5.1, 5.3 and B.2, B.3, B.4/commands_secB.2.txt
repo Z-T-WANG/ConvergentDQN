@@ -1,0 +1,13 @@
+python3 main.py --optim adam --alg DQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env AtlantisNoFrameskip-v4 --seed 1
+python3 main.py --optim adam --alg DQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env BreakoutNoFrameskip-v4 --seed 1
+python3 main.py --optim adam --alg DQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env TimePilotNoFrameskip-v4 --seed 1
+python3 main.py --optim adam --alg DQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env VideoPinballNoFrameskip-v4 --seed 1
+python3 main.py --optim adam --alg DQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env FreewayNoFrameskip-v4 --seed 1
+python3 main.py --optim adam --alg DQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env FishingDerbyNoFrameskip-v4 --seed 1
+
+python3 main.py --optim adam --alg CDQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env AtlantisNoFrameskip-v4 --seed 1 --adam-eps 5e-5
+python3 main.py --optim adam --alg CDQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env BreakoutNoFrameskip-v4 --seed 1 --adam-eps 5e-5
+python3 main.py --optim adam --alg CDQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env TimePilotNoFrameskip-v4 --seed 1 --adam-eps 5e-5
+python3 main.py --optim adam --alg CDQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env VideoPinballNoFrameskip-v4 --seed 1 --adam-eps 5e-5
+python3 main.py --optim adam --alg CDQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env FreewayNoFrameskip-v4 --seed 1 --adam-eps 5e-5
+python3 main.py --optim adam --alg CDQN --prioritized-replay --double --dueling --learning-start 50000 --frame-downscale 2 --env FishingDerbyNoFrameskip-v4 --seed 1 --adam-eps 5e-5
